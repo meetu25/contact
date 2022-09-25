@@ -1,0 +1,89 @@
+body {
+    font-family: 'Ibarra Real Nova',serif;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/p4.jpg');
+    background-repeat: no-repeat;
+    width: 200px;
+
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 50px;
+    left: 228px;
+    font-size: 47px;
+    font-weight: bold;
+    font-style: italic;
+    color: #0007e0;
+    /* text-shadow: 1px 2px 4px rgb(10, 233, 245); */
+}
+
+.mid {
+    display: block;
+    /* border: 2px solid green; */
+    width: 385px;
+    margin: 112px 202px;
+    top: 50;
+    left: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: #ff0000;
+    text-decoration: underline;
+    /* text-shadow: 1px 2px 3px blueviolet; */
+}
+
+.center {
+    
+    display: table-row;
+    height: 50;
+    
+
+}
+
+.center a {
+    display: inline-block;
+    color: rgb(183, 0, 255);
+    /* border: 2px solid black; */
+    text-decoration: none;
+    width: 460px;
+    margin-top: -88px;
+    margin-left: 45px;
+    padding: 0px;
+    font-size: 30px;
+   /*text-shadow: 1px 2px 3px red;*/
+    transition: all .1s ease-in-out;
+}
+
+.center a:hover{
+    text-decoration: underline;
+    color: red;     
+    font-weight: bold;
+    width: 600px;
+    transform: scale(1.125);
+
+}
+
+/* .no{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    margin: 252px;
+    padding: 0px;
+    font-size: 30px;
+} */
+
+/* .no a{
+    color: rgb(183, 0, 255);
+    text-decoration: none;
+    padding: 24px 23px;
+}
+
+.no a:hover{
+
+    text-decoration: underline;
+
+} */
